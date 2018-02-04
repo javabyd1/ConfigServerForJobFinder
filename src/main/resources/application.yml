@@ -4,10 +4,11 @@ spring:
       server:
         git:
           uri: https://github.com/javabyd1/Config.git
-  ignoreLocalSshSettings : true
-    hostKey : someHostHey
-      hostKeyAlgorithm : ssh-rsa
-        privateKey: | -----BEGIN RSA PRIVATE KEY-----
+          ignoreLocalSshSettings : true
+          hostKey : someHostHey
+          hostKeyAlgorithm : ssh-rsa
+          privateKey: |
+                      -----BEGIN RSA PRIVATE KEY-----
                       6IbwgxsELQRNHrG4uskM3VgXPVlAWcleBikJdofpQu2SMUXjMq7rRg31UJ/UI1Ws
                       5fRVWyF4zBcQC7eZ10FrSgSUCl1S9Kb4JI5oFwnKdioU1rqONyHRVeoC2pVFnj+Z
                       67GA+liyQ0GpzrXDqn8CDE1E1A85nJrDSEQwbIWznp2eMOUscaxU4kppUrwe1MRF
